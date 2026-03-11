@@ -6,6 +6,7 @@ This applet takes as input two parameters, the type of regression model (linear 
 > dx run -ichunk=0 -iregression_type=logistic -y regression_analysis --priority low --destination rDNA\ Variations:regression_analysis --instance-type mem1_hdd1_v2_x16
 
 
-![GWAS example](https://github.com/daphnar/rRNA/blob/main/regression_analysis_all_variants/regression.png)
+![GWAS example](https://github.com/daphnar/ribosome/blob/main/rRNA/regression_analysis_all_variants/regression.png)
+
 
 
