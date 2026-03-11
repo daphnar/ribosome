@@ -1,7 +1,7 @@
 # This package implements the Reference Gap Alignment (RGA) algorithm for sequence alignment of full length paralog genes.
 The assumption of RGA, is that sequences are paralogs and hence they have a common reference. After the alignement RGA returns the alignment as as illustrated here.  
 
-![Alt RGA](https://github.com/daphnar/rRNA/blob/main/RGA/RGA_illustration.png)
+![Alt RGA](https://github.com/daphnar/ribosome/blob/main/rRNA/RGA/RGA_illustration.png)
 
 ## Expected input and returned output
 Here we assume as input a fasta file where the first sequence in the file is the reference sequence. The following sequences will be aligned to the first sequence in the file.
@@ -19,7 +19,7 @@ The (RGA) steps are as follows where steps 1-4 are illustrated below:
 3) We align all sequences to the gap-aligned reference using the previous global alignment with additional extended gaps at reference positions. 
 4) Lastly, we extract all variants at a given position across all aligned sequences. 
 
-![Alt RGA](https://github.com/daphnar/rRNA/blob/main/RGA/RGA.png)
+![Alt RGA](https://github.com/daphnar/ribosome/blob/main/rRNA/RGA/RGA.png)
 
 
 
