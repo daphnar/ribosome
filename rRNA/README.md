@@ -18,7 +18,7 @@ In [Rothschild et al. Cell Genomics 2024](https://doi.org/10.1016/j.xgen.2024.10
 With this atlas (panel A) we asked if rRNA variants affect human health (panel B) using the whole genome sequencing and rich phenotypic measurements available in the UK Biobank dataset.
 For this I wrote the RiboVAn pipeline (panel C), which outputs single nucleotide rRNA variants frequencies which I associated with phenotypes (panel C).  
 
-![rRNA_variant_illustration](https://github.com/daphnar/ribosome/rRNA/rRNA_variant_Illustration.png)
+![rRNA_variant_illustration](rRNA/rRNA_variant_Illustration.png)
 
 Please cite [Rothschild et al. Cell Genomics 2024](https://doi.org/10.1016/j.xgen.2024.100629) if you are using RGA.  
 Please cite [Rothschild et al. MedRxiv 2025](https://doi.org/10.1101/2025.09.02.25334953) if you are using RiboVAn.
