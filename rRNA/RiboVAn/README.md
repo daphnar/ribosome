@@ -3,7 +3,8 @@
 In [Rothschild et al. Cell Genomics 2024](https://doi.org/10.1016/j.xgen.2024.100629) we created an atlas of variants (Panel A in the illustration figure) that allow mapping short reads to the 18S and 28S with variations.
 Here I wrote a pipeline Ribosome Variation Analysis (RiboVAn) for getting single nucleotide variants from short reads that map to the atlas (Panel C) which offers for example associating variants with traits (Panel C).
 
-![RiboVAn Illustration](https://github.com/daphnar/rRNA/blob/main/RiboVAn/RiboVAn_illustration.png)
+![RiboVAn_Illustration](https://github.com/daphnar/ribosome/blob/main/rRNA/RiboVAn/RiboVAn_illustration.png)
+
 
 ***
 The RiboVAn.py script expect as input parameters mapped sam files to the atlas and returns nucleotide atlas variant frequencies
