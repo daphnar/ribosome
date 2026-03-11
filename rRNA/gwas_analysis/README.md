@@ -7,4 +7,4 @@ This is similar to a standard GWAS where the rRNA variant frequencies across the
 ### Example for the first variant (chunk 0 which is 28s_59_A_SNV) and chromosome 11 
 > dx run -ichunk=0 -ichromosome=11 -y gwas_analysis --priority low --destination rDNA\ Variations:GWAS --instance-type mem1_hdd1_v2_x16
 
-![GWAS example](https://github.com/daphnar/rRNA/blob/main/gwas_analysis/GWAS.png)
+![GWAS example](https://github.com/daphnar/ribosome/blob/main/rRNA/gwas_analysis/GWAS.png)
