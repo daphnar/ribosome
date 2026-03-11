@@ -1,7 +1,7 @@
 # This package converts CRAM input files to fastq files containing rDNA reads which are entered as input to RiboVAn to extract variant frequencies
 ## This Applet runs on DNAnexus cloud on the UK Biobank dataset  
 
-![RiboVAn Illustration](https://github.com/daphnar/rRNA/blob/main/RiboVAn/RiboVAn_illustration.png)
+![RiboVAn Illustration](https://github.com/daphnar/ribosome/blob/main/rRNA/RiboVAn/RiboVAn_illustration.png)
 
 ***
 This applet runs on a chunk of 100 files, and should be run in parallel for 500 chunks to get the full UK Biobank cohort  
