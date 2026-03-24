@@ -34,8 +34,15 @@ python RiboVAn.py file_1.ribo.atlas_mapped.sam file_2.ribo.atlas_mapped.sam outp
 #
 The output result will contain nucleodite atlas variant frequencies.
 #
-#
+## Notes
 If your run is a single-end run, run:
 
 python RiboVAn.py file_1.ribo.atlas_mapped.sam False output
+#
+If you want to use RiboVAn for long-read sequencing data, I suggest splitting the long-reads to short-reads of 150 bases long. 
+This is possible in different ways including seqkit tool:
+
+seqkit sliding -W 150 -s 150 long_read_input.fastq -o short_read_output.fastq
+
+
 
