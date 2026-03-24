@@ -24,7 +24,7 @@ bowtie2 -x bowtie2_index -U "$fastq_file1" --score-min 'C,0,-1' \
 -S "file_1.ribo.atlas_mapped.sam" --un "file_1.unmapped.sam" \
 2> "file_1.mapping_stats.txt"
 #
-bowtie2 -x bowtie2_index -U "$fastq_file1" --score-min 'C,0,-1' \
+bowtie2 -x bowtie2_index -U "$fastq_file2" --score-min 'C,0,-1' \
 -S "file_2.ribo.atlas_mapped.sam" --un "file_1.unmapped.sam" \
 2> "file_2.mapping_stats.txt"
 #
