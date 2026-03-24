@@ -33,3 +33,9 @@ Then file_2.mapping_stats.txt and file_2.mapping_stats.txt are entered as input 
 python RiboVAn.py file_1.ribo.atlas_mapped.sam file_2.ribo.atlas_mapped.sam output
 #
 The output result will contain nucleodite atlas variant frequencies.
+#
+#
+If your run is a single-end run, run:
+#
+python RiboVAn.py file_1.ribo.atlas_mapped.sam False output
+
