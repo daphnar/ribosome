@@ -36,6 +36,6 @@ The output result will contain nucleodite atlas variant frequencies.
 #
 #
 If your run is a single-end run, run:
-#
+
 python RiboVAn.py file_1.ribo.atlas_mapped.sam False output
 
